@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: #fff;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* background-color: #3a1a1a; */
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    /* line-height: 60px; */
+    margin: 20px 0;
+}
+.btn{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+header{
+    background: radial-gradient(#fff,#5e4207);
+}
+header .row{
+   margin-top: 50px;
+}
+.btn:hover{
+    background: #1e5b5e;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    height: 300px;
+}
+.small-container{
+    max-width: 1080px;
+    /* background-color: rgb(216, 12, 12); */
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+  flex-basis: 23%;
+  padding: 10;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: tranform 0.5s;
+  border: 1px solid black;
+}
+.col-4 img{
+    width: 100%;
+    border: 1px solid black;
+}
+.FP-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+h4{
+  color: #261b64;
+  font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+   transform: translateY(-5px);
+   box-shadow: 2.5px 5px 20px 5px;
+}
+
+.offer{
+background: radial-gradient( #a788a0,#9b2c83 );
+margin-top: 50px;
+}
+.testimonial{
+    margin-top: 50px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 10px 10px;
+}
+.testimonial .col-3 img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;   
+}
+footer {
+    background-color: black;
+    color: #fff;
+    height: 150px;
+}
+footer ul{
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+footer ul li a {
+    color: white;
+}
+
+
